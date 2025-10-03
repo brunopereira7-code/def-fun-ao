@@ -22,6 +22,13 @@
 
 # lista_numeros(numeros,quantidades_impares,quantidades_pares)
 
+ def saudar(nome):
+  """Esta função recebe um nome e retorna uma saudação."""
+  return f"Olá, {nome}!"
+
+# Chamando a função
+mensagem = saudar("Maria")
+print(mensagem) # Saída: Olá, Maria!
 
 
 
